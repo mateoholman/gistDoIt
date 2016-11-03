@@ -21,18 +21,24 @@
 
 <body>
 
-  <!-- Page Header -->
+  <!-- Page Header ------------------------------>
   <header>
     <div id="header" class="container">
       <h1>Gist Do It</h1>
     </div>
   </header>
 
-  <!-- Main Body -->
+  <!-- Main Body -------------------------------->
   <div id="body" class="container">
     <div class="row">
-      <!-- Content -->
-      <div class="col-sm-10 blog-main">
+      <!-- Side Bar ----------------------------->
+      <div class="col-sm-2 blog-sidebar">
+        <h4>Recent Posts</h4>
+        <div id="posts">
+        </div>
+      </div> <!-- ./sidebar -->
+      <!-- Content ------------------------------>
+      <div class="col-sm-9 col-sm-offset-1 blog-main">
         <div id="post">
           <div id="introPost">
             <h2>Objective</h2>
@@ -69,11 +75,6 @@
         <div id="comments"></div>
       </div>
 
-      <!-- Side Bar -->
-      <div class="col-sm-2 blog-sidebar">
-        <h4>Recent Posts</h4>
-        <div id="posts"></div>
-      </div> <!-- ./sidebar -->
     </div> <!-- ./row -->
   </div><!-- ./container -->
 

@@ -1,17 +1,9 @@
-/*
-After development and styling on your blog dies down, plug it into your Github account.
-Change the url to:
-https://api.github.com/users/<your github username>/gists.
-Now whenever you create a gist with "#post" in the title and a file named post.md,
-it will automatically be pulled into your blog!
-*/
-
 'use strict';
 
 $(document).ready(function() {
 
     var jsonUrl = 'http://localhost:8080/apps/11gist-blog/api/gists.json';
-    //var jsonUrl = 'http://api.github.com/users/mateoholman/gists';
+    // var jsonUrl = 'http://api.github.com/users/mateoholman/gists';
 
     $.ajax(jsonUrl, {
       success: function(gists) {
