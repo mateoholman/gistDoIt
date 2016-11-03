@@ -2,8 +2,8 @@
 
 $(document).ready(function() {
 
-    var jsonUrl = 'http://localhost:8080/apps/11gist-blog/api/gists.json';
-    // var jsonUrl = 'http://api.github.com/users/mateoholman/gists';
+    //var jsonUrl = 'http://localhost:8080/apps/11gist-blog/api/gists.json';
+    var jsonUrl = 'http://api.github.com/users/mateoholman/gists';
 
     $.ajax(jsonUrl, {
       success: function(gists) {

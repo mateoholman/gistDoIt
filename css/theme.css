@@ -69,8 +69,8 @@ a {
   width: 75%;
 }
 
-#commentWell {
-  background-color: #FCFBE3;
+.panel-body {
+  background-color: #aee1e1;
 }
 
 .navbar-fixed-bottom {
